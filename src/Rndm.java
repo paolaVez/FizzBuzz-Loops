@@ -21,6 +21,6 @@ public class Rndm {
 
         System.out.println("Odds are: " + oddCount + "\nand evens are: " + evenCount + "\n");
 
-        System.out.println(evenCount > oddCount ? "Even wins" : "Odd wins");
+        System.out.println(evenCount == oddCount? "Equals" : evenCount > oddCount ? "Even wins" : "Odd wins");
     }
 }
